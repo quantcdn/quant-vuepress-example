@@ -39,5 +39,5 @@ jobs:
         with:
           customer: quant
           project: vuepress-example
-          token: $({ secrets.QUANT_TOKEN })
+          token: ${{ secrets.QUANT_TOKEN }}
           dir: src/.vuepress/dist
