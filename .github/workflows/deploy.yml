@@ -35,7 +35,7 @@ jobs:
         with:
           name: vuepress-build
       - name: Deploy to QuantCDN
-        uses: quantcdn/deploy-action@v1.0.0
+        uses: quantcdn/deploy-action@v1.0.1
         with:
           customer: quant
           project: vuepress-example
