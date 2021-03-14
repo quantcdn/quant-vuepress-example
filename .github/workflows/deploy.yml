@@ -34,10 +34,12 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: vuepress-build
+          path: build
+      - run: ls -lh
       - name: Deploy to QuantCDN
         uses: quantcdn/deploy-action@v1.0.1
         with:
           customer: quant
           project: vuepress-example
           token: ${{ secrets.QUANT_TOKEN }}
-          dir: src/.vuepress/dist
+          dir: build
