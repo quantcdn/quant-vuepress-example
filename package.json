@@ -1,0 +1,19 @@
+{
+  "name": "quant-vuepress-example",
+  "version": "0.0.1",
+  "description": "Deploy VuePress to QuantCDN",
+  "main": "index.js",
+  "authors": {
+    "name": "Steve",
+    "email": "steven.worley@quantcdn.io"
+  },
+  "repository": "git@github.com:quantcdn/quant-vuepress-example.git/quant-vuepress-example",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
